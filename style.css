@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    /* max-width: 50em; */
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fffaf3;
+    line-height: 30px;
+    color: #000;
+    font-size: 25px;
+}
+
+.header{
+    background-color: #000;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: #fffaf3;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    transition: ease-in-out 0.2s;
+}
+
+.head-img{
+    padding: 10px;
+    height: 50px;
+}
+
+.all{
+    font-family: 'Courier New', Courier, monospace;
+    width: 70%;
+    margin-left: 150px;
+    padding: 50px;
+} 
+
+.upper-part{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.profile-pic{
+    
+    border: 5px solid #000;
+    width: 250px;
+    border-radius: 50%;
+}
+
+
+.tag{
+    color: #87CEEB;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.me, .skills, .resume-builder, .project, .qualification{
+    font-weight: 700;
+}
+
+.about-me, .education, .skills, .projects{
+    height: 100vh;
+}
+
+hr{
+    border: 2px solid ;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+}
+
+#skill{
+    height: 50px;
+    margin-bottom: 0;
+}
+h2{
+    border-bottom: 3px solid #87CEEB;
+}
+
+.skill-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    align-content: flex-start;
+}
+
+#skill-img1, #skill-img2, #skill-img3, #skill-img4{
+    height: 150px;
+}
+
+footer{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+.contacts{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
